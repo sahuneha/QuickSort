@@ -1,0 +1,10 @@
+function [x2 ] = hyper2( x )
+j = 1;
+k = 1;
+L = [];      
+R = [];
+kk=2;  %no of processor
+length_of_x=numel(x);
+new_length=ceil(length_of_x/kk);
+x2=x(new_length+1:end)
+x2 = sequentialquickSort(x2);     

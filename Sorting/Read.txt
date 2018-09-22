@@ -1,0 +1,4 @@
+seqsort.m-sequential quick sort Algorithm
+Parallelquicksort.m-Parrale quick sort Algorithm
+Hyperquicksort.m-hyper quick sort algorithm
+ veriosn used-Matlab 2013a
